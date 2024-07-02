@@ -1,7 +1,6 @@
-name: social_bloc_firebase
-description: "A new Flutter project."
+name: post_repository
+description: "Dart package that manages the posts"
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -10,8 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
