@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656685456382",
+    "project_id": "instaxlearn",
+    "storage_bucket": "instaxlearn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656685456382:android:91694399ea5e037e853eaf",
+        "android_client_info": {
+          "package_name": "com.example.social_bloc_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy2rpD_H2yNpiFgCZXNKxRKz1BWQejHLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
