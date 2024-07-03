@@ -13,7 +13,7 @@ class MyUserEntity extends Equatable {
     required this.picture,
   });
 
-  Map<String, Object> toDocument() {
+  Map<String, Object?> toDocument() {
     return {
       'id': id,
       'email': email,
@@ -22,7 +22,7 @@ class MyUserEntity extends Equatable {
     };
   }
 
-  MyUserEntity fromDocument(Map<String, Object> document) {
+  static MyUserEntity fromDocument(Map<String, dynamic> document) {
     return MyUserEntity(
       id: document['id'] as String,
       email: document['email'] as String,
