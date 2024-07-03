@@ -17,7 +17,7 @@ class MyUser extends Equatable {
   //Empty User for unauthenticated users.
   static const empty = MyUser(id: '', email: '', name: '', picture: '');
 
-  MyUser copyWith(String? id, String? email, String? name, String? picture) {
+  MyUser copyWith({String? id, String? email, String? name, String? picture}) {
     return MyUser(
       id: id ?? this.id,
       email: email ?? this.email,
